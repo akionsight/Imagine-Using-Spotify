@@ -11,6 +11,6 @@ for i in file:
     videos+= f"{i} "
 
 ## Run it all
-os.system(f'vlc --no-video {videos}')
+os.system(f'cvlc --no-video {videos}')
     
 
